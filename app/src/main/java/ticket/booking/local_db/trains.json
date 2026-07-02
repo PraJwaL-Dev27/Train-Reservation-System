@@ -1,0 +1,144 @@
+[ {
+  "train_id" : "TR001",
+  "train_no" : "12952",
+  "train_name" : "Rajdhani Express",
+  "stations" : [ "Delhi", "Agra", "Jaipur", "Kota", "Mumbai" ],
+  "station_times" : {
+    "Delhi" : "06:00",
+    "Agra" : "08:00",
+    "Jaipur" : "11:00",
+    "Kota" : "14:30",
+    "Mumbai" : "22:00"
+  },
+  "seats" : [ [ 0, 0, 0, 1, 0, 0 ], [ 1, 0, 1, 0, 0, 0 ], [ 0, 0, 0, 0, 1, 0 ], [ 1, 0, 0, 0, 0, 0 ], [ 0, 0, 0, 0, 0, 0 ] ]
+}, {
+  "train_id" : "TR002",
+  "train_no" : "12004",
+  "train_name" : "Shatabdi Express",
+  "stations" : [ "Delhi", "Ghaziabad", "Etawah", "Kanpur", "Lucknow" ],
+  "station_times" : {
+    "Delhi" : "07:00",
+    "Ghaziabad" : "07:30",
+    "Etawah" : "09:30",
+    "Kanpur" : "11:00",
+    "Lucknow" : "13:00"
+  },
+  "seats" : [ [ 1, 0, 0, 0, 0, 0 ], [ 0, 1, 0, 0, 0, 0 ], [ 0, 0, 0, 1, 0, 0 ], [ 0, 0, 0, 0, 0, 0 ], [ 1, 0, 0, 1, 0, 1 ] ]
+}, {
+  "train_id" : "TR003",
+  "train_no" : "22436",
+  "train_name" : "Vande Bharat Express",
+  "stations" : [ "Delhi", "Jaipur", "Ajmer", "Ahmedabad" ],
+  "station_times" : {
+    "Delhi" : "05:30",
+    "Jaipur" : "09:00",
+    "Ajmer" : "10:30",
+    "Ahmedabad" : "16:00"
+  },
+  "seats" : [ [ 0, 0, 0, 0, 1, 0 ], [ 0, 0, 1, 0, 0, 0 ], [ 0, 0, 0, 0, 0, 0 ], [ 0, 1, 0, 0, 0, 0 ], [ 0, 0, 0, 1, 0, 0 ] ]
+}, {
+  "train_id" : "TR004",
+  "train_no" : "12213",
+  "train_name" : "Duronto Express",
+  "stations" : [ "Mumbai", "Surat", "Vadodara", "Ahmedabad" ],
+  "station_times" : {
+    "Mumbai" : "08:00",
+    "Surat" : "11:00",
+    "Vadodara" : "13:00",
+    "Ahmedabad" : "15:00"
+  },
+  "seats" : [ [ 0, 0, 0, 0, 0, 0 ], [ 0, 0, 0, 0, 0, 1 ], [ 0, 1, 0, 0, 0, 0 ], [ 0, 0, 0, 1, 0, 0 ], [ 0, 0, 0, 0, 0, 0 ] ]
+}, {
+  "train_id" : "TR005",
+  "train_no" : "12909",
+  "train_name" : "Garib Rath Express",
+  "stations" : [ "Delhi", "Mathura", "Kota", "Udaipur" ],
+  "station_times" : {
+    "Delhi" : "09:00",
+    "Mathura" : "10:30",
+    "Kota" : "15:00",
+    "Udaipur" : "19:00"
+  },
+  "seats" : [ [ 0, 0, 1, 0, 0, 0 ], [ 0, 0, 0, 0, 1, 1 ], [ 0, 0, 0, 0, 0, 0 ], [ 1, 0, 0, 0, 0, 0 ], [ 0, 0, 0, 1, 0, 0 ] ]
+}, {
+  "train_id" : "TR006",
+  "train_no" : "12650",
+  "train_name" : "Sampark Kranti Express",
+  "stations" : [ "Delhi", "Bhopal", "Nagpur", "Hyderabad" ],
+  "station_times" : {
+    "Delhi" : "06:30",
+    "Bhopal" : "12:00",
+    "Nagpur" : "17:00",
+    "Hyderabad" : "23:30"
+  },
+  "seats" : [ [ 1, 0, 0, 0, 1, 1 ], [ 1, 0, 0, 0, 0, 0 ], [ 0, 0, 0, 1, 0, 0 ], [ 0, 0, 0, 0, 0, 0 ], [ 0, 1, 0, 0, 0, 0 ] ]
+}, {
+  "train_id" : "TR007",
+  "train_no" : "14212",
+  "train_name" : "Intercity Express",
+  "stations" : [ "Lucknow", "Kanpur", "Prayagraj", "Varanasi" ],
+  "station_times" : {
+    "Lucknow" : "08:00",
+    "Kanpur" : "09:30",
+    "Prayagraj" : "12:00",
+    "Varanasi" : "14:30"
+  },
+  "seats" : [ [ 0, 0, 0, 0, 0, 0 ], [ 0, 0, 0, 1, 0, 0 ], [ 0, 1, 0, 0, 0, 0 ], [ 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0 ] ]
+}, {
+  "train_id" : "TR008",
+  "train_no" : "22119",
+  "train_name" : "Tejas Express",
+  "stations" : [ "Mumbai", "Kalyan", "Nagpur", "Raipur" ],
+  "station_times" : {
+    "Mumbai" : "18:00",
+    "Kalyan" : "20:00",
+    "Nagpur" : "05:00",
+    "Raipur" : "10:30"
+  },
+  "seats" : [ [ 0, 0, 0, 0, 1, 1 ], [ 0, 1, 0, 0, 0, 0 ], [ 0, 0, 0, 0, 1, 0 ], [ 0, 0, 1, 0, 0, 0 ], [ 0, 0, 0, 0, 0, 0 ] ]
+}, {
+  "train_id" : "TR009",
+  "train_no" : "12420",
+  "train_name" : "Gomti Express",
+  "stations" : [ "Delhi", "Ghaziabad", "Aligarh", "Tundla", "Etawah", "Kanpur", "Lucknow" ],
+  "station_times" : {
+    "Delhi" : "12:55",
+    "Ghaziabad" : "13:30",
+    "Aligarh" : "14:50",
+    "Tundla" : "15:55",
+    "Etawah" : "17:00",
+    "Kanpur" : "19:15",
+    "Lucknow" : "21:30"
+  },
+  "seats" : [ [ 0, 0, 0, 0, 0, 0 ], [ 0, 1, 0, 0, 0, 0 ], [ 0, 0, 0, 1, 0, 0 ], [ 0, 0, 0, 0, 0, 0 ], [ 0, 0, 1, 0, 0, 0 ] ]
+}, {
+  "train_id" : "TR010",
+  "train_no" : "12419",
+  "train_name" : "Gomti Express",
+  "stations" : [ "Lucknow", "Kanpur", "Etawah", "Tundla", "Aligarh", "Ghaziabad", "Delhi" ],
+  "station_times" : {
+    "Lucknow" : "05:45",
+    "Kanpur" : "07:30",
+    "Etawah" : "09:33",
+    "Tundla" : "10:30",
+    "Aligarh" : "12:00",
+    "Ghaziabad" : "14:20",
+    "Delhi" : "15:00"
+  },
+  "seats" : [ [ 1, 1, 1, 1, 1, 0 ], [ 0, 0, 1, 0, 0, 0 ], [ 0, 0, 1, 1, 0, 0 ], [ 1, 0, 0, 0, 0, 0 ], [ 0, 0, 0, 1, 0, 0 ] ]
+}, {
+  "train_id" : "TR011",
+  "train_no" : "15032",
+  "train_name" : "Gorakhpur Intercity Express",
+  "stations" : [ "Lucknow", "Barabanki", "Gonda", "Mankapur", "Basti", "Khalilabad", "Gorakhpur" ],
+  "station_times" : {
+    "Lucknow" : "16:05",
+    "Barabanki" : "16:40",
+    "Gonda" : "18:05",
+    "Mankapur" : "18:35",
+    "Basti" : "19:35",
+    "Khalilabad" : "20:10",
+    "Gorakhpur" : "21:30"
+  },
+  "seats" : [ [ 0, 0, 0, 0, 0, 0 ], [ 0, 1, 1, 1, 1, 0 ], [ 0, 0, 0, 1, 0, 0 ], [ 0, 0, 0, 0, 0, 0 ], [ 1, 1, 0, 0, 0, 1 ] ]
+} ]
