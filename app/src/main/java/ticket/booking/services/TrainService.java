@@ -58,23 +58,29 @@ public class TrainService {
         return false;
     }
 
-    public void displayTrains(List<Train> trains){
+    public void displayTrains(List<Train> trains, String s, String d){
         if(trains.isEmpty()){
             System.out.println();
             System.out.println("No Train Found!");
             return;
         }
-        System.out.println("========================");
+        System.out.println("===========================");
         System.out.println("     Available Trains    ");
-        System.out.println("========================");
+        System.out.println("===========================");
 
         for(int i=0;i<trains.size();i++){
             Train train = trains.get(i);
 
+            String departureTime = train.getStationTimes().get(s);
+            String arrivalTime = train.getStationTimes().get(d);
+
             System.out.println(i+1+".");
-            System.out.println("Train Name   : "+train.getTrainName());
-            System.out.println("Train Number : "+train.getTrainNo());
-            System.out.println("-------------------------");
+            System.out.println("Train Name  : "+train.getTrainName()+" ("+train.getTrainNo()+")");
+            System.out.println(s+" -----------> "+d);
+            System.out.println(departureTime+"               "+arrivalTime);
+            System.out.println();
+            System.out.println("Available Seats: "+train.AvailableSeatsCount()+" of "+train.TotalSeatsCount());
+            System.out.println("---------------------------");
         }
     }
 
@@ -88,9 +94,9 @@ public class TrainService {
 
     public void displaySeats(Train selectedTrain){
         List<List<Integer>> seatMatrix = selectedTrain.getSeats();
-        System.out.println("========================");
+        System.out.println("============================");
         System.out.println("     Seat Layout   ");
-        System.out.println("========================");
+        System.out.println("============================");
         System.out.println();
         System.out.println("     C1   C2  C3  C4  C5  C6");
 

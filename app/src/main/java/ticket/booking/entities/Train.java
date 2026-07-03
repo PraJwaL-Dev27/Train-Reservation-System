@@ -65,4 +65,20 @@ public class Train {
     public void setSeats(List<List<Integer>> seats) {
         this.seats = seats;
     }
+
+    public int AvailableSeatsCount(){
+        int count = 0;
+        for(int i=0;i<getSeats().size();i++){
+            for(int j=0;j<getSeats().get(i).size();j++){
+                if(getSeats().get(i).get(j)==0){
+                    count++;
+                }
+            }
+        }
+        return count;
+    }
+
+    public int TotalSeatsCount(){
+        return getSeats().size() * getSeats().get(0).size();
+    }
 }

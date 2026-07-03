@@ -106,9 +106,14 @@ public class Ticket {
        return "...........Train Ticket..........."+
                "\nTicket ID     : "+ticketId+
                "\nTrain Name    : "+train.getTrainName()+
-               "\nTrain number  : "+train.getTrainNo()+
+               "\nTrain number  : "+train.getTrainNo()+"\n"+
+
                "\nSource        : "+source+
+               "\nDeparture Time: "+train.getStationTimes().get(source)+"\n"+
+
                "\nDestination   : "+destination+
+               "\nArrival Time  : "+train.getStationTimes().get(destination)+"\n"+
+
                "\nSeat Number   : "+seatNumber+ " (R" +row+ " C" +col+")"+
                "\nJourney Date  : "+formatter.format(dateOfTravel)+
                "\n...................................";

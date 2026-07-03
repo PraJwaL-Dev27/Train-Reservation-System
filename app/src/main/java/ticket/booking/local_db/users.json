@@ -2,52 +2,7 @@
   "user_id" : "55cf1851-d93b-4996-9261-5b0f84171915",
   "name" : "prajwal",
   "hash_password" : "$2a$10$vggcDbSoMVyHAeCqMDNm8OvfUEdbfBdN.yrwE0y3CHJ6/dYitiFDG",
-  "ticket_booked" : [ {
-    "ticket_id" : "24f0fe70-c5d3-4dc5-b26d-536de21c7a73",
-    "user_id" : "55cf1851-d93b-4996-9261-5b0f84171915",
-    "source" : "Delhi",
-    "destination" : "Bhopal",
-    "train" : {
-      "train_id" : "TR006",
-      "train_no" : "12650",
-      "train_name" : "Sampark Kranti Express",
-      "stations" : [ "Delhi", "Bhopal", "Nagpur", "Hyderabad" ],
-      "station_times" : {
-        "Delhi" : "06:30",
-        "Bhopal" : "12:00",
-        "Nagpur" : "17:00",
-        "Hyderabad" : "23:30"
-      },
-      "seats" : [ [ 1, 0, 0, 0, 1, 1 ], [ 1, 0, 0, 0, 0, 0 ], [ 0, 0, 0, 1, 0, 0 ], [ 0, 0, 0, 0, 0, 0 ], [ 0, 1, 0, 0, 0, 0 ] ]
-    },
-    "date_of_travel" : 1783103400000,
-    "seat_number" : 1,
-    "row" : 1,
-    "col" : 1
-  }, {
-    "ticket_id" : "13fb7f5e-4c2f-4f16-8afe-5b3b7f872953",
-    "user_id" : "55cf1851-d93b-4996-9261-5b0f84171915",
-    "source" : "Delhi",
-    "destination" : "Lucknow",
-    "train" : {
-      "train_id" : "TR002",
-      "train_no" : "12004",
-      "train_name" : "Shatabdi Express",
-      "stations" : [ "Delhi", "Ghaziabad", "Etawah", "Kanpur", "Lucknow" ],
-      "station_times" : {
-        "Delhi" : "07:00",
-        "Ghaziabad" : "07:30",
-        "Etawah" : "09:30",
-        "Kanpur" : "11:00",
-        "Lucknow" : "13:00"
-      },
-      "seats" : [ [ 1, 0, 0, 0, 0, 0 ], [ 0, 1, 0, 0, 0, 0 ], [ 0, 0, 0, 1, 0, 0 ], [ 0, 0, 0, 0, 0, 0 ], [ 1, 0, 0, 1, 0, 1 ] ]
-    },
-    "date_of_travel" : 1783103400000,
-    "seat_number" : 1,
-    "row" : 1,
-    "col" : 1
-  } ]
+  "ticket_booked" : [ ]
 }, {
   "user_id" : "cfa85d75-fd62-4408-b4a5-d536cf389c68",
   "name" : "ankit",
@@ -100,61 +55,4 @@
     "row" : 5,
     "col" : 2
   } ]
-}, {
-  "user_id" : "4d45f237-cb37-4cd3-b456-2c66d2bd21b7",
-  "name" : "prabhat",
-  "hash_password" : "$2a$10$qHl8r5eo70MM7kqEn.QDoOXjVzrn5SCoL5dvciH/Z6bCv9qnJ.1qm",
-  "ticket_booked" : [ {
-    "ticket_id" : "dc8796bf-71db-4650-a3be-82b4266583b0",
-    "user_id" : "4d45f237-cb37-4cd3-b456-2c66d2bd21b7",
-    "source" : "Delhi",
-    "destination" : "Udaipur",
-    "train" : {
-      "train_id" : "TR005",
-      "train_no" : "12909",
-      "train_name" : "Garib Rath Express",
-      "stations" : [ "Delhi", "Mathura", "Kota", "Udaipur" ],
-      "station_times" : {
-        "Delhi" : "09:00",
-        "Mathura" : "10:30",
-        "Kota" : "15:00",
-        "Udaipur" : "19:00"
-      },
-      "seats" : [ [ 0, 0, 1, 0, 0, 0 ], [ 0, 0, 0, 0, 1, 1 ], [ 0, 0, 0, 0, 0, 0 ], [ 1, 0, 0, 0, 0, 0 ], [ 0, 0, 0, 1, 0, 0 ] ]
-    },
-    "date_of_travel" : 1783017000000,
-    "seat_number" : 12,
-    "row" : 2,
-    "col" : 6
-  }, {
-    "ticket_id" : "f0b942cc-0740-4c7d-86be-a8ea7f5fefb7",
-    "user_id" : "4d45f237-cb37-4cd3-b456-2c66d2bd21b7",
-    "source" : "Kanpur",
-    "destination" : "Delhi",
-    "train" : {
-      "train_id" : "TR010",
-      "train_no" : "12419",
-      "train_name" : "Gomti Express",
-      "stations" : [ "Lucknow", "Kanpur", "Etawah", "Tundla", "Aligarh", "Ghaziabad", "Delhi" ],
-      "station_times" : {
-        "Lucknow" : "05:45",
-        "Kanpur" : "07:30",
-        "Etawah" : "09:33",
-        "Tundla" : "10:30",
-        "Aligarh" : "12:00",
-        "Ghaziabad" : "14:20",
-        "Delhi" : "15:00"
-      },
-      "seats" : [ [ 1, 1, 1, 1, 1, 0 ], [ 0, 0, 1, 0, 0, 0 ], [ 0, 0, 1, 1, 0, 0 ], [ 1, 0, 0, 0, 0, 0 ], [ 0, 0, 0, 1, 0, 0 ] ]
-    },
-    "date_of_travel" : 1784572200000,
-    "seat_number" : 4,
-    "row" : 1,
-    "col" : 4
-  } ]
-}, {
-  "user_id" : "cf15f234-1e2e-4cae-b2aa-701e11df8686",
-  "name" : "bittu",
-  "hash_password" : "$2a$10$ciiLG/kaoQdpVdPsRKaiieAfRwqtpprkIQXyPh4QkTugUoiCbJw8.",
-  "ticket_booked" : [ ]
 } ]

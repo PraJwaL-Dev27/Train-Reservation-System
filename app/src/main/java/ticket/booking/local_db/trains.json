@@ -23,7 +23,7 @@
     "Kanpur" : "11:00",
     "Lucknow" : "13:00"
   },
-  "seats" : [ [ 1, 0, 0, 0, 0, 0 ], [ 0, 1, 0, 0, 0, 0 ], [ 0, 0, 0, 1, 0, 0 ], [ 0, 0, 0, 0, 0, 0 ], [ 1, 0, 0, 1, 0, 1 ] ]
+  "seats" : [ [ 0, 0, 0, 0, 0, 0 ], [ 1, 1, 0, 0, 0, 0 ], [ 0, 0, 0, 1, 0, 0 ], [ 0, 0, 0, 0, 0, 0 ], [ 1, 0, 0, 1, 0, 1 ] ]
 }, {
   "train_id" : "TR003",
   "train_no" : "22436",
@@ -110,7 +110,7 @@
     "Kanpur" : "19:15",
     "Lucknow" : "21:30"
   },
-  "seats" : [ [ 0, 0, 0, 0, 0, 0 ], [ 0, 1, 0, 0, 0, 0 ], [ 0, 0, 0, 1, 0, 0 ], [ 0, 0, 0, 0, 0, 0 ], [ 0, 0, 1, 0, 0, 0 ] ]
+  "seats" : [ [ 1, 0, 0, 0, 0, 0 ], [ 0, 1, 0, 0, 0, 0 ], [ 0, 0, 0, 1, 0, 0 ], [ 0, 0, 0, 0, 0, 0 ], [ 0, 0, 1, 0, 0, 0 ] ]
 }, {
   "train_id" : "TR010",
   "train_no" : "12419",
@@ -141,4 +141,334 @@
     "Gorakhpur" : "21:30"
   },
   "seats" : [ [ 0, 0, 0, 0, 0, 0 ], [ 0, 1, 1, 1, 1, 0 ], [ 0, 0, 0, 1, 0, 0 ], [ 0, 0, 0, 0, 0, 0 ], [ 1, 1, 0, 0, 0, 1 ] ]
+}, {
+  "train_id" : "TR012",
+  "train_no" : "12409",
+  "train_name" : "Gondwana Express",
+  "stations" : [ "Delhi", "Mathura", "Agra", "Gwalior", "Jhansi", "Bina", "Bhopal", "Itarsi", "Nagpur", "Gondia", "Durg", "Raipur" ],
+  "station_times" : {
+    "Delhi" : "06:15",
+    "Mathura" : "08:05",
+    "Agra" : "09:00",
+    "Gwalior" : "10:30",
+    "Jhansi" : "12:10",
+    "Bina" : "14:10",
+    "Bhopal" : "16:00",
+    "Itarsi" : "18:00",
+    "Nagpur" : "22:15",
+    "Gondia" : "00:30",
+    "Durg" : "03:45",
+    "Raipur" : "04:30"
+  },
+  "seats" : [ [ 0, 0, 0, 1, 0, 0 ], [ 1, 0, 0, 1, 0, 0 ], [ 0, 0, 1, 0, 0, 0 ], [ 0, 0, 0, 0, 1, 0 ], [ 0, 1, 0, 0, 0, 0 ] ]
+}, {
+  "train_id" : "TR013",
+  "train_no" : "12410",
+  "train_name" : "Gondwana Express",
+  "stations" : [ "Raipur", "Durg", "Gondia", "Nagpur", "Itarsi", "Bhopal", "Bina", "Jhansi", "Gwalior", "Agra", "Mathura", "Delhi" ],
+  "station_times" : {
+    "Raipur" : "18:30",
+    "Durg" : "19:05",
+    "Gondia" : "22:10",
+    "Nagpur" : "00:20",
+    "Itarsi" : "04:45",
+    "Bhopal" : "06:30",
+    "Bina" : "08:20",
+    "Jhansi" : "10:10",
+    "Gwalior" : "11:45",
+    "Agra" : "13:20",
+    "Mathura" : "14:05",
+    "Delhi" : "16:00"
+  },
+  "seats" : [ [ 0, 0, 1, 0, 0, 0 ], [ 0, 1, 0, 0, 0, 0 ], [ 0, 0, 0, 0, 1, 0 ], [ 1, 0, 0, 0, 0, 0 ], [ 0, 0, 0, 1, 0, 0 ] ]
+}, {
+  "train_id" : "TR014",
+  "train_no" : "12808",
+  "train_name" : "Samta Express",
+  "stations" : [ "Delhi", "Mathura", "Agra", "Gwalior", "Jhansi", "Bhopal", "Itarsi", "Nagpur", "Rajnandgaon", "Durg", "Raipur" ],
+  "station_times" : {
+    "Delhi" : "07:00",
+    "Mathura" : "08:45",
+    "Agra" : "09:40",
+    "Gwalior" : "11:10",
+    "Jhansi" : "13:00",
+    "Bhopal" : "17:00",
+    "Itarsi" : "19:00",
+    "Nagpur" : "23:00",
+    "Rajnandgaon" : "02:00",
+    "Durg" : "02:40",
+    "Raipur" : "03:20"
+  },
+  "seats" : [ [ 0, 0, 0, 0, 0, 0 ], [ 0, 1, 0, 0, 1, 0 ], [ 0, 0, 0, 1, 0, 0 ], [ 0, 0, 1, 0, 0, 0 ], [ 1, 0, 0, 0, 0, 0 ] ]
+}, {
+  "train_id" : "TR015",
+  "train_no" : "12807",
+  "train_name" : "Samta Express",
+  "stations" : [ "Raipur", "Durg", "Rajnandgaon", "Nagpur", "Itarsi", "Bhopal", "Jhansi", "Gwalior", "Agra", "Mathura", "Delhi" ],
+  "station_times" : {
+    "Raipur" : "20:30",
+    "Durg" : "21:00",
+    "Rajnandgaon" : "21:45",
+    "Nagpur" : "00:30",
+    "Itarsi" : "04:30",
+    "Bhopal" : "06:20",
+    "Jhansi" : "10:15",
+    "Gwalior" : "11:50",
+    "Agra" : "13:30",
+    "Mathura" : "14:15",
+    "Delhi" : "16:15"
+  },
+  "seats" : [ [ 1, 0, 0, 0, 0, 0 ], [ 0, 0, 1, 0, 0, 0 ], [ 0, 0, 0, 0, 1, 0 ], [ 0, 1, 0, 0, 0, 0 ], [ 0, 0, 0, 1, 0, 0 ] ]
+}, {
+  "train_id" : "TR016",
+  "train_no" : "12301",
+  "train_name" : "Rajdhani Express",
+  "stations" : [ "Delhi", "Ghaziabad", "Aligarh", "Tundla", "Etawah", "Kanpur", "Prayagraj", "Pt. DDU", "Buxar", "Ara", "Patna" ],
+  "station_times" : {
+    "Delhi" : "16:50",
+    "Ghaziabad" : "17:20",
+    "Aligarh" : "18:30",
+    "Tundla" : "19:35",
+    "Etawah" : "20:40",
+    "Kanpur" : "22:30",
+    "Prayagraj" : "01:00",
+    "Pt. DDU" : "03:20",
+    "Buxar" : "04:20",
+    "Ara" : "05:05",
+    "Patna" : "06:00"
+  },
+  "seats" : [ [ 0, 0, 0, 1, 0, 0 ], [ 0, 0, 1, 0, 0, 0 ], [ 0, 1, 0, 0, 0, 0 ], [ 0, 0, 0, 0, 1, 0 ], [ 1, 0, 0, 0, 0, 0 ] ]
+}, {
+  "train_id" : "TR017",
+  "train_no" : "12302",
+  "train_name" : "Rajdhani Express",
+  "stations" : [ "Patna", "Ara", "Buxar", "Pt. DDU", "Prayagraj", "Kanpur", "Etawah", "Tundla", "Aligarh", "Ghaziabad", "Delhi" ],
+  "station_times" : {
+    "Patna" : "17:00",
+    "Ara" : "17:40",
+    "Buxar" : "18:25",
+    "Pt. DDU" : "20:00",
+    "Prayagraj" : "22:10",
+    "Kanpur" : "00:40",
+    "Etawah" : "02:20",
+    "Tundla" : "03:25",
+    "Aligarh" : "04:30",
+    "Ghaziabad" : "05:45",
+    "Delhi" : "06:20"
+  },
+  "seats" : [ [ 0, 0, 1, 0, 0, 0 ], [ 0, 1, 0, 0, 0, 0 ], [ 0, 0, 0, 0, 1, 0 ], [ 1, 0, 0, 0, 0, 0 ], [ 0, 0, 0, 1, 0, 0 ] ]
+}, {
+  "train_id" : "TR018",
+  "train_no" : "12627",
+  "train_name" : "Karnataka Express",
+  "stations" : [ "Delhi", "Mathura", "Jhansi", "Bhopal", "Itarsi", "Nagpur", "Balharshah", "Kazipet", "Secunderabad", "Anantapur", "Bengaluru" ],
+  "station_times" : {
+    "Delhi" : "08:20",
+    "Mathura" : "10:00",
+    "Jhansi" : "14:00",
+    "Bhopal" : "18:30",
+    "Itarsi" : "20:30",
+    "Nagpur" : "01:00",
+    "Balharshah" : "03:20",
+    "Kazipet" : "06:30",
+    "Secunderabad" : "09:00",
+    "Anantapur" : "14:00",
+    "Bengaluru" : "18:30"
+  },
+  "seats" : [ [ 0, 0, 0, 0, 0, 0 ], [ 1, 0, 0, 1, 0, 0 ], [ 0, 0, 1, 0, 0, 0 ], [ 0, 0, 0, 0, 1, 0 ], [ 0, 1, 0, 0, 0, 0 ] ]
+}, {
+  "train_id" : "TR019",
+  "train_no" : "12628",
+  "train_name" : "Karnataka Express",
+  "stations" : [ "Bengaluru", "Anantapur", "Secunderabad", "Kazipet", "Balharshah", "Nagpur", "Itarsi", "Bhopal", "Jhansi", "Mathura", "Delhi" ],
+  "station_times" : {
+    "Bengaluru" : "19:20",
+    "Anantapur" : "23:00",
+    "Secunderabad" : "04:20",
+    "Kazipet" : "06:40",
+    "Balharshah" : "10:10",
+    "Nagpur" : "12:30",
+    "Itarsi" : "17:00",
+    "Bhopal" : "19:00",
+    "Jhansi" : "23:30",
+    "Mathura" : "03:20",
+    "Delhi" : "05:00"
+  },
+  "seats" : [ [ 0, 1, 0, 0, 0, 0 ], [ 0, 0, 0, 1, 0, 0 ], [ 1, 0, 0, 0, 0, 0 ], [ 0, 0, 1, 0, 0, 0 ], [ 0, 0, 0, 0, 1, 0 ] ]
+}, {
+  "train_id" : "TR020",
+  "train_no" : "12305",
+  "train_name" : "Howrah Rajdhani Express",
+  "stations" : [ "Delhi", "Kanpur", "Prayagraj", "Pt. DDU", "Gaya", "Dhanbad", "Asansol", "Howrah" ],
+  "station_times" : {
+    "Delhi" : "16:55",
+    "Kanpur" : "21:30",
+    "Prayagraj" : "00:10",
+    "Pt. DDU" : "02:30",
+    "Gaya" : "05:10",
+    "Dhanbad" : "07:30",
+    "Asansol" : "08:40",
+    "Howrah" : "11:30"
+  },
+  "seats" : [ [ 1, 0, 1, 0, 0, 0 ], [ 0, 0, 0, 0, 1, 0 ], [ 1, 0, 0, 0, 0, 0 ], [ 0, 1, 0, 0, 0, 0 ], [ 0, 0, 0, 1, 0, 0 ] ]
+}, {
+  "train_id" : "TR017",
+  "train_no" : "12302",
+  "train_name" : "Rajdhani Express",
+  "stations" : [ "Patna", "Ara", "Buxar", "Pt. DDU", "Prayagraj", "Kanpur", "Etawah", "Tundla", "Aligarh", "Ghaziabad", "Delhi" ],
+  "station_times" : {
+    "Patna" : "17:00",
+    "Ara" : "17:40",
+    "Buxar" : "18:25",
+    "Pt. DDU" : "20:00",
+    "Prayagraj" : "22:10",
+    "Kanpur" : "00:40",
+    "Etawah" : "02:20",
+    "Tundla" : "03:25",
+    "Aligarh" : "04:30",
+    "Ghaziabad" : "05:45",
+    "Delhi" : "06:20"
+  },
+  "seats" : [ [ 0, 0, 1, 0, 0, 0 ], [ 0, 1, 0, 0, 0, 0 ], [ 0, 0, 0, 0, 1, 0 ], [ 1, 0, 0, 0, 0, 0 ], [ 0, 0, 0, 1, 0, 0 ] ]
+}, {
+  "train_id" : "TR018",
+  "train_no" : "12627",
+  "train_name" : "Karnataka Express",
+  "stations" : [ "Delhi", "Mathura", "Jhansi", "Bhopal", "Itarsi", "Nagpur", "Balharshah", "Kazipet", "Secunderabad", "Anantapur", "Bengaluru" ],
+  "station_times" : {
+    "Delhi" : "08:20",
+    "Mathura" : "10:00",
+    "Jhansi" : "14:00",
+    "Bhopal" : "18:30",
+    "Itarsi" : "20:30",
+    "Nagpur" : "01:00",
+    "Balharshah" : "03:20",
+    "Kazipet" : "06:30",
+    "Secunderabad" : "09:00",
+    "Anantapur" : "14:00",
+    "Bengaluru" : "18:30"
+  },
+  "seats" : [ [ 0, 0, 0, 0, 0, 0 ], [ 1, 0, 0, 1, 0, 0 ], [ 0, 0, 1, 0, 0, 0 ], [ 0, 0, 0, 0, 1, 0 ], [ 0, 1, 0, 0, 0, 0 ] ]
+}, {
+  "train_id" : "TR019",
+  "train_no" : "12628",
+  "train_name" : "Karnataka Express",
+  "stations" : [ "Bengaluru", "Anantapur", "Secunderabad", "Kazipet", "Balharshah", "Nagpur", "Itarsi", "Bhopal", "Jhansi", "Mathura", "Delhi" ],
+  "station_times" : {
+    "Bengaluru" : "19:20",
+    "Anantapur" : "23:00",
+    "Secunderabad" : "04:20",
+    "Kazipet" : "06:40",
+    "Balharshah" : "10:10",
+    "Nagpur" : "12:30",
+    "Itarsi" : "17:00",
+    "Bhopal" : "19:00",
+    "Jhansi" : "23:30",
+    "Mathura" : "03:20",
+    "Delhi" : "05:00"
+  },
+  "seats" : [ [ 0, 1, 0, 0, 0, 0 ], [ 0, 0, 0, 1, 0, 0 ], [ 1, 0, 0, 0, 0, 0 ], [ 0, 0, 1, 0, 0, 0 ], [ 0, 0, 0, 0, 1, 0 ] ]
+}, {
+  "train_id" : "TR020",
+  "train_no" : "12305",
+  "train_name" : "Howrah Rajdhani Express",
+  "stations" : [ "Delhi", "Kanpur", "Prayagraj", "Pt. DDU", "Gaya", "Dhanbad", "Asansol", "Howrah" ],
+  "station_times" : {
+    "Delhi" : "16:55",
+    "Kanpur" : "21:30",
+    "Prayagraj" : "00:10",
+    "Pt. DDU" : "02:30",
+    "Gaya" : "05:10",
+    "Dhanbad" : "07:30",
+    "Asansol" : "08:40",
+    "Howrah" : "11:30"
+  },
+  "seats" : [ [ 0, 0, 1, 0, 0, 0 ], [ 0, 0, 0, 0, 1, 0 ], [ 1, 0, 0, 0, 0, 0 ], [ 0, 1, 0, 0, 0, 0 ], [ 0, 0, 0, 1, 0, 0 ] ]
+},{
+  "train_id":"TR022",
+  "train_no":"22436",
+  "train_name":"Vande Bharat Express",
+  "stations":["Delhi","Ghaziabad","Aligarh","Tundla","Etawah","Kanpur","Prayagraj","Varanasi"],
+  "station_times":{
+    "Delhi":"06:00",
+    "Ghaziabad":"06:30",
+    "Aligarh":"07:40",
+    "Tundla":"08:45",
+    "Etawah":"09:30",
+    "Kanpur":"11:10",
+    "Prayagraj":"13:15",
+    "Varanasi":"15:00"
+  },
+  "seats":[
+    [0,0,0,0,1,0],
+    [0,1,0,0,0,0],
+    [0,0,0,1,0,0],
+    [1,0,0,0,0,0],
+    [0,0,1,0,0,0]
+  ]
+},
+  {
+    "train_id":"TR023",
+    "train_no":"22435",
+    "train_name":"Vande Bharat Express",
+    "stations":["Varanasi","Prayagraj","Kanpur","Etawah","Tundla","Aligarh","Ghaziabad","Delhi"],
+    "station_times":{
+      "Varanasi":"15:30",
+      "Prayagraj":"17:10",
+      "Kanpur":"19:20",
+      "Etawah":"20:45",
+      "Tundla":"21:30",
+      "Aligarh":"22:35",
+      "Ghaziabad":"23:40",
+      "Delhi":"00:15"
+    },
+    "seats":[
+      [0,0,1,0,0,0],
+      [0,1,0,0,0,0],
+      [0,0,0,0,1,0],
+      [1,0,0,0,0,0],
+      [0,0,0,1,0,0]
+    ]
+  }, {
+  "train_id" : "TR032",
+  "train_no" : "12556",
+  "train_name" : "Gorakhdham Express",
+  "stations" : [ "Delhi", "Ghaziabad", "Aligarh", "Tundla", "Etawah", "Kanpur", "Lucknow", "Barabanki", "Gonda", "Mankapur", "Basti", "Khalilabad", "Gorakhpur" ],
+  "station_times" : {
+    "Delhi" : "20:10",
+    "Ghaziabad" : "20:45",
+    "Aligarh" : "22:05",
+    "Tundla" : "23:10",
+    "Etawah" : "00:15",
+    "Kanpur" : "02:00",
+    "Lucknow" : "03:30",
+    "Barabanki" : "04:15",
+    "Gonda" : "05:35",
+    "Mankapur" : "06:10",
+    "Basti" : "07:00",
+    "Khalilabad" : "07:40",
+    "Gorakhpur" : "09:00"
+  },
+  "seats" : [ [ 1, 0, 0, 1, 0, 0 ], [ 0, 1, 0, 0, 0, 0 ], [ 0, 0, 1, 0, 0, 0 ], [ 1, 0, 0, 0, 0, 0 ], [ 0, 0, 0, 0, 1, 0 ] ]
+}, {
+  "train_id" : "TR033",
+  "train_no" : "12555",
+  "train_name" : "Gorakhdham Express",
+  "stations" : [ "Gorakhpur", "Khalilabad", "Basti", "Mankapur", "Gonda", "Barabanki", "Lucknow", "Kanpur", "Etawah", "Tundla", "Aligarh", "Ghaziabad", "Delhi" ],
+  "station_times" : {
+    "Gorakhpur" : "19:30",
+    "Khalilabad" : "20:10",
+    "Basti" : "20:50",
+    "Mankapur" : "21:40",
+    "Gonda" : "22:15",
+    "Barabanki" : "23:35",
+    "Lucknow" : "00:20",
+    "Kanpur" : "02:10",
+    "Etawah" : "03:50",
+    "Tundla" : "05:00",
+    "Aligarh" : "06:05",
+    "Ghaziabad" : "07:30",
+    "Delhi" : "08:10"
+  },
+  "seats" : [ [ 0, 1, 0, 0, 0, 0 ], [ 0, 0, 0, 1, 0, 0 ], [ 1, 0, 0, 0, 0, 0 ], [ 0, 0, 1, 0, 0, 0 ], [ 0, 0, 0, 0, 1, 0 ] ]
 } ]

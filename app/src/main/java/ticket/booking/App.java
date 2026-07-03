@@ -112,7 +112,7 @@ public class App {
                                         String destination = sc.nextLine().trim();
 
                                         List<Train> foundTrains = trainService.trainSearch(source,destination);
-                                        trainService.displayTrains(foundTrains);
+                                        trainService.displayTrains(foundTrains,source,destination);
 
                                         if(foundTrains.isEmpty()){
                                             break;
